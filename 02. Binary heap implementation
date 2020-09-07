@@ -1,1 +1,18 @@
+// implementation
 
+class minHeap{
+  int[] arr;
+  int size;
+  int capacity;
+  
+  minHeap(int c)
+  {
+    arr = new int[c];
+    size=0;
+    capacity=c;
+  }
+  
+  int left(int i) { return (2i+1); } // gets the left child
+  int right(int i) { return (2i+2); } // gets the right child
+  int parent(int i) { return (i-1)/2; ) // gets the parent
+}
