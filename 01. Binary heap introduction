@@ -1,0 +1,30 @@
+// Binary heap datastructure is used to implement heap sort which is a popular sorting technique.
+// it is also used to implement PRIORITY QUEUE.
+
+// TWO TYPES:
+
+1. MIN HEAP
+highest priority item is assigned lowest value.
+
+2. MAX HEAP
+highest priority item is assigned highest value.
+
+// BINARY HEAP
+BINARY HEAP IS A COMPLETE BINARY TREE. 
+complete binary tree - all levels are completely filled except for the last level and the last level should have been filled from left to right.
+
+ADVANATAGE: we can store the binary heap datastructure as an ARRAY.
+when we represent complete binary tree in an array, we dont create any gaps in the array and hence we dont waste any space.
+left(i) = 2i+1
+right(i) = 21+2
+parent(i) = floor((i-1)/2)
+
+they are cache friendly
+they can have random access
+they save space
+
+// MIN HEAP
+
+1. its a complete binary tree
+2. every node has value smaller than its descendants
+3. heap is just visual representation, in actual its stored as an array in the memory
